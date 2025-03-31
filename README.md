@@ -10,7 +10,7 @@ Before starting, make sure your system is up to date and the required dependenci
     
     ```bash
     `sudo apt update && sudo apt upgrade -y
-    sudo apt install -y pkg-config libssl-dev` 
+    sudo apt install -y pkg-config libssl-dev
     ```
     This will update your system and install essential libraries needed for Rust and other tools.
     
@@ -24,7 +24,7 @@ Rust is the programming language used by many tools, including Soundness.
 1.  Install Rust by running the following command:
     
     ```bash
-    `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs/ | sh` 
+    `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs/ | sh
     ```
 2.  When prompted, select the default installation (option 1). The installation may take a few minutes.
     
@@ -36,7 +36,7 @@ Rust is the programming language used by many tools, including Soundness.
 4.  To ensure that the environment is set up after rebooting, add the above command to your `.bashrc`:
     
     ```bash    
-    `echo  'source $HOME/.cargo/env' >> ~/.bashrc source ~/.bashrc` 
+    `echo  'source $HOME/.cargo/env' >> ~/.bashrc source ~/.bashrc
     ```
 ----------
 
@@ -47,14 +47,14 @@ To interact with Soundness, you need to install its command-line interface (CLI)
 1.  Install the Soundness CLI by running the following command:
     
     ```bash
-    `curl -sSL https://raw.githubusercontent.com/soundnesslabs/soundness-layer/main/soundnessup/install | bash` 
+    `curl -sSL https://raw.githubusercontent.com/soundnesslabs/soundness-layer/main/soundnessup/install | bash 
     ```
     This will download and install the necessary components for working with Soundness.
     
 2.  Once installed, activate the changes by running:
     
     ```bash
-    `source ~/.bashrc` 
+    `source ~/.bashrc 
     ```
 ----------
 
@@ -65,12 +65,12 @@ After installing the CLI, you'll need to install and update the Soundness compon
 1.  Install Soundness:
     
     ```bash
-    `soundnessup install` 
+    `soundnessup install
     ```
 2.  Update Soundness to the latest version:
     
     ```bash
-    `soundnessup update` 
+    `soundnessup update
     ```
 
 ----------
@@ -83,7 +83,7 @@ Now that everything is set up, you can generate the key for registration.
     
     ```bash
     
-    `soundness-cli generate-key --name "Your_Key_Name"` 
+    `soundness-cli generate-key --name "Your_Key_Name"
     ```
     Replace `"Your_Key_Name"` with a unique name for your key.
     
