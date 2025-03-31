@@ -31,7 +31,7 @@ Rust is the programming language used by many tools, including Soundness.
 3.  Once installation is complete, activate Rust by running:
     
     ```bash
-    `source  $HOME/.cargo/env` 
+    `source  $HOME/.cargo/env
     ```
 4.  To ensure that the environment is set up after rebooting, add the above command to your `.bashrc`:
     
