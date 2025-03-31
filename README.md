@@ -92,6 +92,18 @@ Now that everything is set up, you can generate the key for registration.
 
 ----------
 
+### Step 6: Join Discord and Share Your Public Key
+
+To complete the registration process:
+
+Join the Soundness Discord server: https://discord.gg/soundnesslabs
+
+Go to the #testnet-access channel.
+
+Post your public key in the channel to get access to the testnet.
+
+----------
+
 ## 🌟 Congratulations! 🎉
 
 Your Soundness key is now generated and ready for registration on the testnet. 🚀
